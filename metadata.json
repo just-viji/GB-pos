@@ -1,0 +1,5 @@
+{
+  "name": "Fast Food POS",
+  "description": "A simple mobile-first Point of Sale application for a fast food restaurant. Users can add items to a bill by clicking on their images, complete orders, and view a sales report.",
+  "requestFramePermissions": []
+}
