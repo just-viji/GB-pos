@@ -15,4 +15,11 @@ export interface SalesData {
   totalRevenue: number;
 }
 
-export type View = 'pos' | 'report';
+export interface Transaction {
+  id: string;
+  timestamp: string;
+  items: OrderItem[];
+  total: number;
+}
+
+export type View = 'pos' | 'transactions';
